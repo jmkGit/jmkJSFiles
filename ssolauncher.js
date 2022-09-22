@@ -3,7 +3,8 @@
 	const styles = `color: green; font-size: 2em;`;
 	console.log('%c** SSO Fix version 11/08/22 08:37 **', styles);
 	var objs = [];
-	var aspNetEndpoint = "http://edpqlvap01.millerextra.com/ssoQlikview/GenerateSso.ashx";
+	//var aspNetEndpoint = "http://edpqlvap01.millerextra.com/ssoQlikview/GenerateSso.ashx";
+	var aspNetEndpoint = "https://mhsso.azurewebsites.net/Report";
 	//Live = "https://qlikview.millerextra.com/ssoQlikview/GenerateSso.ashx";
 
 	function tableToString(table) {
